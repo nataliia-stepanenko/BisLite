@@ -287,3 +287,7 @@ footer {
 	display: block;
 	width: 152px;
 }
+
+.logos:hover {
+	opacity: 0.75;
+}
