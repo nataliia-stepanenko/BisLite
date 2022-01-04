@@ -98,6 +98,28 @@ header {
 	padding: 11px 10px 10px 10px;
 	border: 1px solid #e8ebf1;
 	border-top: none;
+	border-bottom: none;
+	position: relative;
+}
+
+.dropdown li a:after {
+	content: "";
+	position: absolute;
+	background: #e8ebf1;
+	left: 6px;
+	bottom: 0;
+	height: 1px;
+	width: 185px;
+}
+
+.dropdown li:last-child a:after {
+	content: "";
+	position: absolute;
+	background: #e8ebf1;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
 }
 
 .dropdown:hover ul {
