@@ -134,9 +134,11 @@ header {
 
 .banner {
 	background-color: #81e4ed;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	min-height: 500px;
 	margin-top: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .banner-content {
