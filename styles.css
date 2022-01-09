@@ -28,6 +28,8 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	column-gap: 37px;
+	padding-right: 8px;
 }
 
 .logo {
@@ -53,10 +55,6 @@ header {
 	font-size: 13px;
 	line-height: 13px;
 	padding: 13px 10px;
-}
-
-.menu-item:last-child {
-	margin-right: 8px;
 }
 
 .arrow-down {
@@ -175,11 +173,12 @@ header {
 .info-content {
 	width: 1000px;
 	display: flex;
-	justify-content: space-between;
+	column-gap: 42px;
+	padding: 60px 0 52px 0;
 }
 
 .article {
-	max-width: 220px;
+	flex-basis: 220px;
 }
 
 .heading {
@@ -240,17 +239,18 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 45px 0;
 }
 
 .download-content {
 	width: 1000px;
-	max-height: 427px;
+	min-height: 140px;
 	display: flex;
-	justify-content: space-between;
+	column-gap: 80px;
 	align-items: center;
 	background-color: #e8fcfe;
 	border: 1px solid #81e4ed;
-	padding: 38px 47px 33px 24px;
+	padding: 37px 47px;
 }
 
 .download-content p {
@@ -262,7 +262,7 @@ header {
 
 .download-content button {
 	display: block;
-	width: 240px;
+	min-width: 240px;
 	height: 60px;
 	border: 1px solid #2aacc8;
 	border-radius: 10px;
@@ -304,16 +304,18 @@ footer {
 	width: 1000px;
 	display: flex;
 	justify-content: space-between;
+	column-gap: 80px;
 	align-items: center;
+	padding: 32px 0;
 }
 
 .footer-content p {
-	max-width: 644px;
+	flex-basis: 644px;
 	font-size: 13px;
 	line-height: 18px;
 	color: #363636;
 }
 
-.footer-content a {
-	display: block;
+.footer-content {
+	padding-right: 8px;
 }
